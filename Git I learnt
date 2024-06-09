@@ -1,0 +1,16 @@
+Rebase:
+
+git pull -r origin <target branch to rebase>
+
+Force push:
+git push origin <target branch> -f
+
+Use force push in case of amend or release
+
+How to accept merge in cmd, dev is target branch
+
+git checkout dev
+git pull origin dev
+git merge <feature branch> --ff
+git log  - Check the latest commit id is yours
+git push origin dev

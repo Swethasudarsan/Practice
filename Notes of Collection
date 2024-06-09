@@ -1,0 +1,54 @@
+List
+. get
+.size
+.contains
+.length
+.isEmpty
+.of
+
+Arraylist: Lesser modifications, access based on position, insertion and deletion costly, not thread safe
+can add elements by specifying index
+
+LinkedList: Easy to insert and delete, access is worse
+
+Vector: Synchronized, came before arraylist, thread safe (only one thread can access at a time)
+-------------------------------------------------------------------------------------------------------
+
+Set: No duplicates, does not care about position of an element
+Hashset: Doesn't appear on the order it is stored
+Treeset: Get sorted on its own
+floor(32) -> lesser or equal to 32 present in set
+ceiling(32) -> greater or equal to 32 present in set
+higher(32)-> greater than 32
+lower(32)-> lower than 32
+subset(20,80)-> numbers present between 20 and 80 in set
+LinkedHashSet: Stores the order it is inserted
+
+--------------------------------------------------------------------------------------------------------\
+
+Tree:
+Elements are sorted on its own
+Lesser elements -> left side, greater elements -> right size
+-----------------------------------------------------------------------------------------------------------
+
+Priority queue:
+FIFO/Access based on priority
+Peek() -> access first element
+Poll() -> access as well as remove first element
+
+-------------------------------------------------------------------------------------------------------------
+Map: Does not extend collection interface
+Hashmap: As usual unsorted and unordered
+Hashtable - like vector - synchronised
+
+---------------------------------------------------------------------------------------------------------
+
+IOC Container:
+2 types:
+Bean factory
+Application context - Built on top of bean factory, adds extra functionality
+
+DI:
+Constructor Injection
+Setter Injection
+
